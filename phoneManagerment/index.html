@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+</head>
+<body>
+<table>
+    <tr>
+        <td>Producer</td>
+        <td><input type="text" name="producer" id="producer"></td>
+    </tr>
+    <tr>
+        <td>Model</td>
+        <td><input type="text" name="model" id="model"></td>
+    </tr>
+    <tr>
+        <td>Price</td>
+        <td><input type="text" name="price" id="price"></td>
+    </tr>
+    <td><button onclick="createNewSmartPhone()">Create</button></td>
+</table>
+<h1>Danh sách smart phone</h1>
+<table>
+    <tr>
+        <th>ID</th>
+        <th>PRODUCER</th>
+        <th>MODEL</th>
+        <th>PRICE</th>
+        <th>Delete</th>
+    </tr>
+    <tbody id="content">
+    </tbody>
+</table>
+<script src="phone.js"></script>
+</body>
+</html>
